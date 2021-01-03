@@ -102,3 +102,9 @@ include_once('includes/header.php');
 <?php
 include_once('includes/footer.php');
 ?>
+
+<script>
+	$(document).ready(function(){
+     $('.tbl_class_setup').DataTable();
+	});
+</script>
